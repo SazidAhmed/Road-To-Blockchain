@@ -45,6 +45,6 @@ let bdt = new BlockChain();
 // add new block
 bdt.addBlock(new Block(1, "21/07/2021", {amount: 10}));
 bdt.addBlock(new Block(2, "21/07/2021", {amount: 15}));
-
+bdt.addBlock(new Block(3, "21/07/2021", {amount: 5}));
 //output
 console.log(JSON.stringify(bdt, null, 4));
